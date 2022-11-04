@@ -21,19 +21,29 @@ The following is an operating system specific description of the applications us
 
 1. Open a terminal window by either right-clicking the desktop and selecting **Open in Terminal**, or use the following command from the keyboard:
 
-   ```ctrl + alt + t```
+   ```
+   ctrl + alt + t
+   ```
    
 2. Verify the g++ (C++) compiler is installed on your system by typing the following command in bash terminal. If so, information about g++ to include but not limited to version will be displayed, and you will skip the second command. If not, you will receive a **g++: command not found** output to the terminal window, and you will execute both of the following commands: 
 
-    ```g++ --version```
+    ```
+    g++ --version
+    ```
     
-    ```sudo apt install g++```
+    ```
+    sudo apt install g++
+    ```
     
 3. IFF you would like to use Visual Studio Code (VS Code) ensure you have it installed on your system. Click on **Show Applications** (3x3 matrix of squares) in the bottom left of your screen to verify VS Code is installed. If not, simply open **Ubuntu Software** and download and install VS Code (referred to as simply code) from the software store. If you'd prefer to verify, and if necessary to do everything from the terminal use the following commands (if first command outputs version data skip the other step):
 
-    ```code --version```
+    ```
+    code --version
+    ```
     
-    ```sudo apt update && sudo apt install code```
+    ```
+    sudo apt update && sudo apt install code
+    ```
     
 4. Setting up Visual Studio Code and download necessary extensions. To access VS Code extensions click on the extensions icon in the vertical list of icons along the left side of an open VS Code window. At the very least, you will need to download the C/C++ Microsoft verified extension to use VS Code for C++ development:
 
