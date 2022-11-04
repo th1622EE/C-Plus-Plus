@@ -8,12 +8,14 @@ The purpose of the repo is to provide a reference for basic C++ code for those l
 
 The following is an operating system specific description of the applications used in the creation of the code contained within this repo:
 
-| OS      | Application | Version | Description  |
-| :---    | :---        | :---    | :---         |
-| Ubuntu  | g++         | 11.3.0  | C++ compiler |
-| Ubuntu  | bash        | 5.1.16  | Unix shell   |
-| Ubuntu  | VS Code     | 1.72.2  | Code editor  |
-| Windows | VS Code     | x.xx.x  | Code editor  |
+| OS      | Application | Version | Description      |
+| :---    | :---        | :---    | :---             |
+| Ubuntu  | NA          | 22.04   | Operating System |
+| Windows | NA          | 11      | Operating System |
+| Ubuntu  | g++         | 11.3.0  | C++ compiler     |
+| Ubuntu  | bash        | 5.1.16  | Unix shell       |
+| Ubuntu  | VS Code     | 1.72.2  | Code editor      |
+| Windows | VS Code     | x.xx.x  | Code editor      |
 
 ## Getting Started on Ubuntu System (if using Windows skip this section):
 
