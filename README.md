@@ -32,7 +32,7 @@ The following is an operating system specific description of the applications us
     ```
     
     ```
-    sudo apt install g++
+    sudo apt update && sudo apt install g++
     ```
     
 3. IFF you would like to use Visual Studio Code (VS Code) ensure you have it installed on your system. Click on **Show Applications** (3x3 matrix of squares) in the bottom left of your screen to verify VS Code is installed. If not, simply open **Ubuntu Software** and download and install VS Code (referred to as simply code) from the software store. If you'd prefer to verify, and if necessary to do everything from the terminal use the following commands (if first command outputs version data skip the other step):
