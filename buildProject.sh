@@ -9,7 +9,7 @@ cd src
 # The following lines change to the individual directories of the specific inmplementation
 # file (i.e., file.cpp) and builds the file and outputs the executable to the executable dir
 
-cd Inheritance && g++ -Wall inheritance.cpp -o ../../executable/inheritance.out
+cd Inheritance && g++ -std=c++20 inheritance.cpp -o inheritance
 
-cd ../Maps && g++ -Wall maps.cpp -o ../../executable/maps.out
+cd ../Maps && g++ -std=c++20 maps.cpp -o maps
 
