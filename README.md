@@ -2,7 +2,15 @@
 
 ## Introduction
 
-The purpose of the repo is to provide a reference for basic C++ code for those learning and/or refining fundamental programming skills specific to the C++ language. The examples contained within are simply references for how to utilize the basic functionality of the language through a collection of directories named consistently with the concept in which the interface (fileName.hpp) and implementation (fileName.cpp) files were written to demonstrate. For examples, the maps.hpp and maps.cpp files demonstrate an introductory reference on how to implement a map in the C++ language. Every subdirectory contained within the src directory will contain both an interface and implementation file using an object oriented design approach to build an executable file which will be stored using the same name as the implementation file in the out directory. 
+C++ is a general purpose, compiled, statically typed, object-oriented, high-level programming language. The C++ language is compliled, which means the software must be converted from high-level source code into machine code executables which are specific to **each** operating system for which the code is intended to run. This means a program and/or application for which you intend to run on Windows and Linux, must both be independently compiled for each of the two systems. Statically typed means the data types of variables and objects must be defined at compile time. While the language is object-oriented, the language also supports generic and procedural programming as well. While often considered to be a high-level language, the code it notoriously closer to the hardware than other "high-level" languages such as Python, which is why you may also see it referred to as a mid-level language.
+
+The language itself is built around the C++ Standard Library which is composed of the entire C Standard Library, with additional libraries to support object-oriented programming, as well as additional features which have evolved with the language over the years. There are also a large number of third-party libraries available for use extending the functionality of C++ to more specific use cases. In addition to the C++ Standard Library, there is the Standard Template Library which was developed to more easily implement data structures and algorithms. The C++ language is considered to be a more difficult language for beginners to learn; however, it is very commonly the first language taught to Electrical Engineering graduates because of how closely the language is built around the manipulation and/or interfacing of hardware through software in many common use cases for the language. Some of these common use cases for the language include the following:
+
+   1. Compiler design
+   2. Embedded systems
+   3. Operating systems
+   4. Game development
+   5. Distributed systems 
 
 ## System Overview
 
