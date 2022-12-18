@@ -18,7 +18,7 @@ The following is a table describing the setup of my Windows 11 system relative t
 
 ### Getting Started with Windows 11
 
-The following instructions are provided to allow anyone who desires to emulate the system I used while creating the code for this repository. It is **NOT** required to execute the code. These instructions are simply available as a courtesy to those who **are not** familiar with the language or the tools used in the development and execution of the code contained within. However, you **MUST** have a C++ compiler (preferably *g++*) installed on your system, and added to your path to execute the code using the instructions provided via the README.md file in every subdirectory within the [src](src/) directory.
+The following instructions are **NOT** required to execute the code. These instructions are simply available as a courtesy to those who **may or may not be** familiar with the language, or the tools used in the development and execution of the code contained within. However, you **MUST** have the *g++* C++ compiler installed on your system, and added to your path to execute the code using the instructions provided via the README.md file in every subdirectory within the [src](src/) directory.
 
 #### Install Visual Studio Code
 
