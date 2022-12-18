@@ -38,7 +38,7 @@ MSYS2 is a Software Distribution and Building Platform for Windows based on cygw
 5. Type the following into the terminal window to download ming64 using the following command:
    ```
    pacman -S mingw-w64-ucrt-x86_64-gcc
-   '''
+   ```
 6. Verify installation of g++ compiler by entering the following command in the *UCRT64* terminal window:
    ```
    g++ --version
@@ -65,23 +65,17 @@ If the version information is displayed, it is already installed, but if you rec
    "C:\Program Files\Git\git-bash.exe" --cd-to-home
    ```
 7. Select *Apply* and then *OK* to close the window.
-8. Double-click the *Git Bash* icon on your Desktop to open the terminal window, and type the following to create a *.bash_aliases* file:
-   ```
-   touch .bash_aliases
-   ```
-9. Double-click the *Git Bash* icon on your Desktop to open the terminal window, and type the following to open Visual Studio Code:
+8. Double-click the *Git Bash* icon on your Desktop to open the terminal window, and type the following to launch Visual Studio Code from within your *HOME* directory:
    ```
    code .
    ```
-11. In the *Explorer* on the left side of the VS Code application, double-click the *.bashrc* to open the file in the editor, and copy and paste the following into your *.bashrc* file (this will source your *.bash_aliases* to search for any aliases you create, and adds the g++ compiler your installed to your path):
+11. In the *Explorer* on the left side of the VS Code application, double-click the *.bashrc* to open the file in the editor, and copy and paste the following to add the *g++* compiler to your path **IFF** you used the default location for the installation folder:
    ```
-   # The following will source .bash_aliases IFF it exists
-   if [ -f .bash_aliases ]
-   then
-       source .bash_aliases
-   fi
-
    # Export path of g++ compiler to run C++ code from Git Bash
    export PATH="/c/msys64/ucrt64/bin/:$PATH"
    ```
-12. Now, with the VS Code window active, either press **CTRL + s** or select *File* and then *Save* to save the *.bashrc* file. 
+   If you stored the installation folder in a custom location, replace *<path-to-ucrt64/bin>* with the appropriate path as follows and add to *.bashrc*:
+   ```
+   export PATH="<path-to-ucrt64/bin>:$PATH"
+   ```
+12. Save the *.bashrc* file. 
