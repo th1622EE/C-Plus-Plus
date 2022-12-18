@@ -8,11 +8,12 @@ This repository is a reference point for specific implementations using the C++ 
 
 The following is a table describing the setup of my Windows 11 system relative to the tools and dependencies specific to writing, building, and executing the code contained in within the [src](src/) directory:
 
-| Application        | Version | Description     |
-| :---               | :---    | :---            |
-| Visual Studio Code | 1.74.1  | Code Editor     |
-| Git                | 2.38.0  | Git for Windows |
-| g++                | 12.2.0  | C++ compiler    |
+| Application | Version | Description |
+| :--- | :--- | :--- |
+| Visual Studio Code | 1.74.1  | Code Editor |
+| Git | 2.38.0  | Git VCS for Windows |
+| MSYS2 | | Software Distribution and Building Platform |
+| MINGW64 | | Minimalist GNU for Windows Dev Environment |
 
 
 ### Getting Started with Windows 11
