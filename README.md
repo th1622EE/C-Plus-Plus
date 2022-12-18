@@ -11,9 +11,9 @@ The following is a table describing the setup of my Windows 11 system relative t
 | Application | Version | Description |
 | :--- | :--- | :--- |
 | Visual Studio Code | 1.74.1  | Code Editor |
-| Git | 2.38.0  | Git VCS for Windows |
+| Git | 2.38.0  | Git Version Control System (VCS) for Windows |
 | MSYS2 | | Software Distribution and Building Platform |
-| MINGW64 | | Minimalist GNU for Windows Dev Environment |
+| MINGW64 | | Minimalist GNU for Windows (MINGW) Development Environment |
 
 
 ### Getting Started with Windows 11
